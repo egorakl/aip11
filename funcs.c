@@ -18,7 +18,7 @@ node* add_node() {   // Äîáàâëåíèå ıëåìåíòà
 	n->coef = int_input();
 
 	while (n->deg < 0) {   // Åñëè ââåäåíà îòğèöàòåëüíàÿ ñòåïåíü
-		printf("Degree can not be less than zero!\nEnter coefficient: ");
+		printf("Degree can not be less than zero!\nEnter degree of x: ");
 		n->deg = int_input();
 	}
 
